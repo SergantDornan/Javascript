@@ -1,0 +1,238 @@
+/* product-card */
+
+.product-card-style {
+    margin: 80px auto 20px auto;
+}
+
+.product-card-img-style{
+    width: 300px;
+    height: 400px;
+}
+
+/* product */
+
+.product-style{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+    margin-bottom: 250px;
+    margin-left: 0px;
+}
+
+.product-body-style{
+    width: 650px;
+    height: 400px;
+}
+
+.product-img-style{
+    height: 100%;
+    width: 210px;
+}
+
+/* back_button */
+
+.back_button{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: #e8e8e8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-position{
+    margin-right: 30px;
+}
+
+.buttons-style{
+    background-color: #3865fb;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #fff;
+    transition: background-color 0.3s ease;
+}
+  
+.buttons-style:hover {
+    background-color: #0222c5;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: auto;
+    height: 90px;
+    width: 100%;
+    padding: 20px;
+    background-color: #e8e8e8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* main-page */
+
+.wrapper{
+    background-color: #ebe9a7;
+}
+
+/* product-page */
+
+.product-page{
+    height: 100%;
+    background-color: #ebe9a7;
+}
+
+/* add-delete-buttons */
+
+.position_buttons_add_delete{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 600px;
+}
+
+.buttons_add_delete{
+    background-color: #3865fb;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.buttons_add_delete:hover {
+    background-color: #0222c5;
+}
+
+/* add-window */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    margin: 10% auto;
+    padding: 25px;
+    border: none;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.modal-content h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.close {
+    color: #7f8c8d;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.close:hover {
+    color: #e74c3c;
+    cursor: pointer;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border 0.3s;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.form-group textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.submit-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #27ae60;
+}
+
+.cancel-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #c0392b;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
